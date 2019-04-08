@@ -81,8 +81,8 @@ solr_interface：监控solr服务接口状态。     cdh_interface：监控cdh�
 redio：监控语音转译情况。
 ```
 按照说明来填，一行一个对应。
-# 6、修改index.sh和ck.sh脚本：
-vim index.sh:将箭头指向的位置改成redis服务器ip地址（这个只需要在server端配置）
+# 6、修改index.sh和ck.sh脚本：（这个只需要在server端配置）
+vim index.sh:将箭头指向的位置改成redis服务器ip地址
 ![image7](https://github.com/now521/control_picture/blob/master/%E5%9B%BE%E7%89%877.png)
 vim ck.sh:红框里的字母代表机构领域，一个机构领域一行，代表一个机构领域执行一次。
 ![image8](https://github.com/now521/control_picture/blob/master/%E5%9B%BE%E7%89%878.png)
